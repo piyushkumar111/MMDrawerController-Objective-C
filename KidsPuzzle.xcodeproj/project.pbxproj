@@ -15,6 +15,15 @@
 		138418F11BD4C11A00901BEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 138418EF1BD4C11A00901BEE /* LaunchScreen.storyboard */; };
 		138418FC1BD4C11A00901BEE /* KidsPuzzleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 138418FB1BD4C11A00901BEE /* KidsPuzzleTests.m */; };
 		138419071BD4C11A00901BEE /* KidsPuzzleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 138419061BD4C11A00901BEE /* KidsPuzzleUITests.m */; };
+		138419281BD4C2C900901BEE /* HomeScreenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 138419221BD4C2C900901BEE /* HomeScreenVC.m */; settings = {ASSET_TAGS = (); }; };
+		138419291BD4C2C900901BEE /* LeftSideVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 138419241BD4C2C900901BEE /* LeftSideVC.m */; settings = {ASSET_TAGS = (); }; };
+		1384192A1BD4C2C900901BEE /* ProfileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 138419261BD4C2C900901BEE /* ProfileVC.m */; settings = {ASSET_TAGS = (); }; };
+		138419351BD4C3D600901BEE /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1384192D1BD4C3D600901BEE /* MMDrawerBarButtonItem.m */; settings = {ASSET_TAGS = (); }; };
+		138419361BD4C3D600901BEE /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 138419301BD4C3D600901BEE /* MMDrawerController.m */; settings = {ASSET_TAGS = (); }; };
+		138419371BD4C3D600901BEE /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 138419321BD4C3D600901BEE /* MMDrawerVisualState.m */; settings = {ASSET_TAGS = (); }; };
+		138419381BD4C3D600901BEE /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 138419341BD4C3D600901BEE /* UIViewController+MMDrawerController.m */; settings = {ASSET_TAGS = (); }; };
+		1384193D1BD4C64A00901BEE /* RightSideVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1384193C1BD4C64A00901BEE /* RightSideVC.m */; settings = {ASSET_TAGS = (); }; };
+		138419401BD4C7F200901BEE /* MMExampleDrawerVisualStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1384193F1BD4C7F200901BEE /* MMExampleDrawerVisualStateManager.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,27 @@
 		138419021BD4C11A00901BEE /* KidsPuzzleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KidsPuzzleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		138419061BD4C11A00901BEE /* KidsPuzzleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KidsPuzzleUITests.m; sourceTree = "<group>"; };
 		138419081BD4C11A00901BEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		138419211BD4C2C900901BEE /* HomeScreenVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScreenVC.h; sourceTree = "<group>"; };
+		138419221BD4C2C900901BEE /* HomeScreenVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeScreenVC.m; sourceTree = "<group>"; };
+		138419231BD4C2C900901BEE /* LeftSideVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftSideVC.h; sourceTree = "<group>"; };
+		138419241BD4C2C900901BEE /* LeftSideVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSideVC.m; sourceTree = "<group>"; };
+		138419251BD4C2C900901BEE /* ProfileVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileVC.h; sourceTree = "<group>"; };
+		138419261BD4C2C900901BEE /* ProfileVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileVC.m; sourceTree = "<group>"; };
+		1384192C1BD4C3D600901BEE /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		1384192D1BD4C3D600901BEE /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		1384192E1BD4C3D600901BEE /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		1384192F1BD4C3D600901BEE /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		138419301BD4C3D600901BEE /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		138419311BD4C3D600901BEE /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		138419321BD4C3D600901BEE /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		138419331BD4C3D600901BEE /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		138419341BD4C3D600901BEE /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		138419391BD4C4E400901BEE /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		1384193A1BD4C4FC00901BEE /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1384193B1BD4C64A00901BEE /* RightSideVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightSideVC.h; sourceTree = "<group>"; };
+		1384193C1BD4C64A00901BEE /* RightSideVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightSideVC.m; sourceTree = "<group>"; };
+		1384193E1BD4C7F200901BEE /* MMExampleDrawerVisualStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMExampleDrawerVisualStateManager.h; sourceTree = "<group>"; };
+		1384193F1BD4C7F200901BEE /* MMExampleDrawerVisualStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMExampleDrawerVisualStateManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +133,9 @@
 			children = (
 				138418E41BD4C11A00901BEE /* AppDelegate.h */,
 				138418E51BD4C11A00901BEE /* AppDelegate.m */,
-				138418E71BD4C11A00901BEE /* ViewController.h */,
-				138418E81BD4C11A00901BEE /* ViewController.m */,
-				138418EA1BD4C11A00901BEE /* Main.storyboard */,
-				138418ED1BD4C11A00901BEE /* Assets.xcassets */,
-				138418EF1BD4C11A00901BEE /* LaunchScreen.storyboard */,
-				138418F21BD4C11A00901BEE /* Info.plist */,
+				138419201BD4C2C900901BEE /* Controller */,
+				138419151BD4C14300901BEE /* View */,
+				138419271BD4C2C900901BEE /* Model */,
 				138418E11BD4C11A00901BEE /* Supporting Files */,
 			);
 			path = KidsPuzzle;
@@ -117,7 +144,12 @@
 		138418E11BD4C11A00901BEE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				138418F21BD4C11A00901BEE /* Info.plist */,
+				138418E71BD4C11A00901BEE /* ViewController.h */,
+				138418E81BD4C11A00901BEE /* ViewController.m */,
 				138418E21BD4C11A00901BEE /* main.m */,
+				138419391BD4C4E400901BEE /* Constant.h */,
+				1384193A1BD4C4FC00901BEE /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +170,57 @@
 				138419081BD4C11A00901BEE /* Info.plist */,
 			);
 			path = KidsPuzzleUITests;
+			sourceTree = "<group>";
+		};
+		138419151BD4C14300901BEE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				138418ED1BD4C11A00901BEE /* Assets.xcassets */,
+				138418EF1BD4C11A00901BEE /* LaunchScreen.storyboard */,
+				138418EA1BD4C11A00901BEE /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		138419201BD4C2C900901BEE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				138419211BD4C2C900901BEE /* HomeScreenVC.h */,
+				138419221BD4C2C900901BEE /* HomeScreenVC.m */,
+				138419231BD4C2C900901BEE /* LeftSideVC.h */,
+				138419241BD4C2C900901BEE /* LeftSideVC.m */,
+				138419251BD4C2C900901BEE /* ProfileVC.h */,
+				138419261BD4C2C900901BEE /* ProfileVC.m */,
+				1384193B1BD4C64A00901BEE /* RightSideVC.h */,
+				1384193C1BD4C64A00901BEE /* RightSideVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		138419271BD4C2C900901BEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1384192B1BD4C3D600901BEE /* MMDrawerController */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1384192B1BD4C3D600901BEE /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				1384192C1BD4C3D600901BEE /* MMDrawerBarButtonItem.h */,
+				1384192D1BD4C3D600901BEE /* MMDrawerBarButtonItem.m */,
+				1384192E1BD4C3D600901BEE /* MMDrawerController+Subclass.h */,
+				1384192F1BD4C3D600901BEE /* MMDrawerController.h */,
+				138419301BD4C3D600901BEE /* MMDrawerController.m */,
+				138419311BD4C3D600901BEE /* MMDrawerVisualState.h */,
+				138419321BD4C3D600901BEE /* MMDrawerVisualState.m */,
+				138419331BD4C3D600901BEE /* UIViewController+MMDrawerController.h */,
+				138419341BD4C3D600901BEE /* UIViewController+MMDrawerController.m */,
+				1384193E1BD4C7F200901BEE /* MMExampleDrawerVisualStateManager.h */,
+				1384193F1BD4C7F200901BEE /* MMExampleDrawerVisualStateManager.m */,
+			);
+			path = MMDrawerController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,8 +354,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				138418E91BD4C11A00901BEE /* ViewController.m in Sources */,
+				138419401BD4C7F200901BEE /* MMExampleDrawerVisualStateManager.m in Sources */,
 				138418E61BD4C11A00901BEE /* AppDelegate.m in Sources */,
+				138419361BD4C3D600901BEE /* MMDrawerController.m in Sources */,
+				138419381BD4C3D600901BEE /* UIViewController+MMDrawerController.m in Sources */,
+				1384193D1BD4C64A00901BEE /* RightSideVC.m in Sources */,
+				138419371BD4C3D600901BEE /* MMDrawerVisualState.m in Sources */,
 				138418E31BD4C11A00901BEE /* main.m in Sources */,
+				138419291BD4C2C900901BEE /* LeftSideVC.m in Sources */,
+				1384192A1BD4C2C900901BEE /* ProfileVC.m in Sources */,
+				138419281BD4C2C900901BEE /* HomeScreenVC.m in Sources */,
+				138419351BD4C3D600901BEE /* MMDrawerBarButtonItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +503,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = KidsPuzzle/PrefixHeader.pch;
 				INFOPLIST_FILE = KidsPuzzle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kachariya.KidsPuzzle.KidsPuzzle;
@@ -422,6 +515,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = KidsPuzzle/PrefixHeader.pch;
 				INFOPLIST_FILE = KidsPuzzle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kachariya.KidsPuzzle.KidsPuzzle;
